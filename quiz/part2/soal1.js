@@ -4,7 +4,12 @@ Diberikan sebuah function palindrome(kata) yang menerima satu parameter. Functio
 
 function palindrome(kata) {
     // you can only write your code here!
-    
+    let cekKata = kata.split('').reverse().join('');
+    if(cekKata === kata){
+      return true;
+    }else{
+      return false;
+    }
   }
   
   // TEST CASES
