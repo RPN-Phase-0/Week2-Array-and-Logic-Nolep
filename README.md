@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Week2 Array and Logic Nolep
 
 Selamat datang di modul "Array and Logic" dengan JavaScript! Modul ini dirancang khusus untuk pemula yang baru memulai perjalanan mereka dalam mempelajari logika pemrograman dengan array di JavaScript.
@@ -34,16 +33,3 @@ Selamat datang di modul "Array and Logic" dengan JavaScript! Modul ini dirancang
 Jika Anda menemukan repo ini bermanfaat, jangan lupa untuk memberikan bintang ⭐ di bagian atas halaman. Dukung kami dengan cara share materi ini ke teman-teman kalian.
 
 Selamat belajar dan selamat menjelajahi dunia array dan logika dengan JavaScript! 🚀
-=======
-# Study Materials
-
-Halo sobat nolep, welcome to week 2. Disini materinya hanya ada 1 part, dan baca materi part 1 dulu dan sisanya kalian akan menghadapi quiz yang menyebalkan 🗿
-
-Good Luck 🗿
-
-## Tips Belajar di Week 2
-
-Kalian harus bisa memahami alur looping dan bisa menggunakan loop untuk segala situasi quiz bila diperlukan, karena ***LOOPING*** adalah teman kalian nanti. Sangat disarankan untuk mencari sumber belajar di internet bisa dari youtube atau google.
-
-**Ini akan sulit, karena disini challengenya untuk menuju seorang programmer yang kuat secara fundamental*
->>>>>>> f098b7a (pushh ujian1)
