@@ -5,21 +5,21 @@ fungsi ini akan me-return array 2 dimensi
 function groupAnimals(animals) {
     // you can only write your code here!
     let hewanTerurut = animals.sort();
-    let result = [];
-    let temp=[];
+    let hasil = [];
+    let hasil2=[];
   
     for (let i = 0; i < hewanTerurut.length; i++){  
-      if(temp.length === 0){
-        temp.push(hewanTerurut[i])
-      }else if ( temp [0][0] === hewanTerurut[i][0]){
-        temp.push(hewanTerurut[i]);
+      if(hasil2.length === 0){
+        hasil2.push(hewanTerurut[i])
+      }else if ( hasil2 [0][0] === hewanTerurut[i][0]){
+        hasil2.push(hewanTerurut[i]);
       }else{
-        result.push(temp);
-        temp = [hewanTerurut[i]];
+        hasil.push(hasil2);
+        hasil2 = [hewanTerurut[i]];
       }
     }
-    result.push(temp);
-  return result;
+    hasil.push(hasil2);
+  return hasil;
     
   }
 
