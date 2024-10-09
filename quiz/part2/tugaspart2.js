@@ -95,3 +95,32 @@ function hitungJumlahKata(kalimat) {
   console.log(hitungJumlahKata('A song to sing')); // 4
   console.log(hitungJumlahKata('I')); // 1
   console.log(hitungJumlahKata('I believe I can code')); // 5
+
+function pasanganTerbesar(num) {
+    // Ubah parameter menjadi string
+    let Ubahparameter = num.toString();
+
+    // Variabel untuk menyimpan pasangan terbesar
+    let terbesar = 0;
+
+    // Loop untuk mengambil setiap pasangan dua digit
+    for (let i = 0; i < Ubahparameter.length - 1; i++) {
+        // Ambil pasangan dua digit
+        let pasangan = Ubahparameter[i] + Ubahparameter[i + 1];
+
+        // Ubah pasangan menjadi angka dan bandingkan dengan terbesar
+        if (parseInt(pasangan) > terbesar) {
+            terbesar = parseInt(pasangan);
+        }
+    }
+
+    // Kembalikan pasangan terbesar
+    return terbesar;
+}
+  
+  // TEST CASES
+  console.log(pasanganTerbesar(641573)); // 73
+  console.log(pasanganTerbesar(12783456)); // 83
+  console.log(pasanganTerbesar(910233)); // 91
+  console.log(pasanganTerbesar(71856421)); // 85
+  console.log(pasanganTerbesar(79918293)); // 99
