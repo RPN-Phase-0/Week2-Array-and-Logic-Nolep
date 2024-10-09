@@ -75,3 +75,23 @@ function angkaPalindrome(num) {
   console.log(angkaPalindrome(117)); // 121
   console.log(angkaPalindrome(175)); // 181
   console.log(angkaPalindrome(1000)); // 1001
+
+function hitungJumlahKata(kalimat) {
+    // you can only write your code here!
+
+    // buat cara agar bisa mengambil parameter dan menghitungnya
+    let angkaParameter = kalimat.split(" ")
+
+    // buat variable penampungan
+    let penampungan = angkaParameter.length
+
+    return penampungan
+
+  }
+  
+  // TEST CASES
+  console.log(hitungJumlahKata('I have a dream')); // 4
+  console.log(hitungJumlahKata('Never eat shredded wheat or cake')); // 6
+  console.log(hitungJumlahKata('A song to sing')); // 4
+  console.log(hitungJumlahKata('I')); // 1
+  console.log(hitungJumlahKata('I believe I can code')); // 5
