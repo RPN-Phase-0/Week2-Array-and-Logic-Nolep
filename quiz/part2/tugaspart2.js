@@ -25,3 +25,53 @@ function palindrome(kata) {
   console.log(palindrome('civic')); // true
   console.log(palindrome('kasur rusak')); // true
   console.log(palindrome('mister')); // false
+
+/*
+Diberikan sebuah function angkaPalindrome(angka) yang menerima satu parameter angka. 
+Function akan me-return angka selanjutnya yang mengandung nilai angka palindrome. 
+Contoh, jika angka adalah 27, maka function akan me-return nilai 33 karena angka 33 adalah angka palindrom. 
+Jika angka dari awal sudah merupakan palindrome, maka function harus mencari angka selanjutnya yang palindrome. 
+Contoh, jika angka adalah 8, walaupun dia sudah palindrome, harus mencari angka selanjutnya yang palindrome, yaitu 9.
+
+note kenapa angka 8 adalah palindrome? karena angka 8 dibalik tetep 8 wkwkw
+note kenapa angka 343 adalah palindrome? karena angka 343 dibalik tetep 343 eaaaa
+*/
+
+function angkaPalindrome(num) {
+    // you can only write your code here!
+
+    // cari cara agar parameter nya bisa di pakai dengan .length 
+    let numLength = num.toString(); 
+
+    let angka = ""
+    let hasil = ""
+
+
+    // cari cara agar parameter bisa di balik
+    for (let i = numLength.length - 1; i >= 0; i--) {
+        angka = angka + numLength[i]
+    }
+    
+    if (num == angka) {
+       return hasil = num + 1;
+    }
+
+    while (true) {
+        // Mengonversi angka saat ini ke string untuk memeriksa palindrom
+        let currentString = num.toString();
+        let reversedString = currentString.split('').reverse().join(''); // Balikkan string
+
+        if (currentString === reversedString) { // Periksa apakah palindrom
+            return num; // Jika palindrom, kembalikan angka tersebut
+        }
+
+        num++; // Jika tidak palindrom, tambahkan 1 dan coba lagi
+    }
+  }
+  
+  // TEST CASES
+  console.log(angkaPalindrome(8)); // 9 
+  console.log(angkaPalindrome(10)); // 11
+  console.log(angkaPalindrome(117)); // 121
+  console.log(angkaPalindrome(175)); // 181
+  console.log(angkaPalindrome(1000)); // 1001
