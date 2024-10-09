@@ -53,3 +53,27 @@ function perkalianUnik(arr) {
   console.log(perkalianUnik([1, 4, 3, 2, 5])); // [120, 30, 40, 60, 24]
   console.log(perkalianUnik([1, 3, 3, 1])); // [9, 3, 3, 9]
   console.log(perkalianUnik([2, 1, 8, 10, 2])); // [160, 320, 40, 32, 160]
+
+//tentukan apakah ini deret aritmatika atau bukan
+function tentukanDeretAritmatika(arr) {
+    // you can only write your code here!
+
+    let selesih = arr[1] - arr[0]
+    
+    // pengulangan di aray nya untuk melihat index nya 
+    for (i = 0; i < arr.length - 1; i++ ) {
+
+        if (arr[i + 1] - arr[i] !== selesih) {
+            return false;
+        }
+    }
+     
+    return true;
+  }
+  
+  // TEST CASES
+  console.log(tentukanDeretAritmatika([1, 2, 3, 4, 5, 6])); // true
+  console.log(tentukanDeretAritmatika([2, 4, 6, 12, 24])); // false
+  console.log(tentukanDeretAritmatika([2, 4, 6, 8])); // true
+  console.log(tentukanDeretAritmatika([2, 6, 18, 54])); // false
+  console.log(tentukanDeretAritmatika([1, 2, 3, 4, 7, 9])); // false
