@@ -19,7 +19,7 @@ function groupAnimals(animals) {
             animalArr.push(animal);
         }
     }
-    console.log(animalArr);
+    return animalArr;
 }
 
 // TEST CASES
