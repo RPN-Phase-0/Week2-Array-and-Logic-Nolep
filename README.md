@@ -28,8 +28,22 @@ Selamat datang di modul "Array and Logic" dengan JavaScript! Modul ini dirancang
 2. **Coba tulis kode Anda sendiri!** Setiap bagian menyertakan latihan praktis yang bisa Anda coba untuk menguji pemahaman Anda.
 3. **Bergabunglah dengan komunitas.** Jangan ragu untuk bertanya atau berdiskusi dengan sesama pemula di bagian issues atau melalui pull requests.
 
+## Tips Belajar di Week 2
+
+Kalian harus bisa memahami alur looping dan bisa menggunakan loop untuk segala situasi quiz bila diperlukan, karena ***LOOPING*** adalah teman kalian nanti. Sangat disarankan untuk mencari sumber belajar di internet bisa dari youtube atau google.
+
+**Ini akan sulit, karena disini challengenya untuk menuju seorang programmer yang kuat secara fundamental*
+
+## Week 2 Study Materials
+- [Array & Logic](https://github.com/RPN-Phase-0/Week2-Array-and-Logic-Nolep/blob/main/study-materials/part1.md)
+
+## Week 2 Logic Nolep (Quiz)
+- 
+
 ## Dukung Kami
 
-Jika Anda menemukan repo ini bermanfaat, jangan lupa untuk memberikan bintang ⭐ di bagian atas halaman. Dukung kami dengan cara share materi ini ke teman-teman kalian.
+Jika Kalian menemukan repo ini bermanfaat, jangan lupa untuk memberikan bintang ⭐ di bagian atas halaman. Dukung kami dengan cara sebarkan ke teman-teman kalian, karena materi ini gratis!
 
-Selamat belajar dan selamat menjelajahi dunia array dan logika dengan JavaScript! 🚀
+Selamat belajar dan selamat datang di dunia pemrograman! 🚀
+
+[Discord RPN](https://discord.gg/ufbRBRTKN8)
