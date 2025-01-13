@@ -38,7 +38,10 @@ Kalian harus bisa memahami alur looping dan bisa menggunakan loop untuk segala s
 - [Array & Logic](https://github.com/RPN-Phase-0/Week2-Array-and-Logic-Nolep/blob/main/study-materials/part1.md)
 
 ## Week 2 Logic Nolep (Quiz)
-- 
+- [Part1](https://github.com/RPN-Phase-0/Week2-Array-and-Logic-Nolep/tree/main/quiz/part1)
+- [Part2](https://github.com/RPN-Phase-0/Week2-Array-and-Logic-Nolep/tree/main/quiz/part2)
+- [Part3](https://github.com/RPN-Phase-0/Week2-Array-and-Logic-Nolep/tree/main/quiz/part3)
+- [Ujian Week2](https://github.com/RPN-Phase-0/Week2-Array-and-Logic-Nolep/tree/main/quiz/ujian)
 
 ## Dukung Kami
 
