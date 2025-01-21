@@ -3,7 +3,6 @@ diberikan sebuah function groupAnimals(animals) yang menerima satu parameter ber
 fungsi ini akan me-return array 2 dimensi
 */
 function groupAnimals(animals) {
-  animals.sort();
   let grupHewan = [];
   for (let i = 0; i < animals.length; i++) {
     let hewanSekarang = animals[i];
@@ -22,7 +21,7 @@ function groupAnimals(animals) {
       grupHewan.push([hewanSekarang]);
     }
   }
-  return grupHewan;
+  return grupHewan.sort();
 }
 
 // TEST CASES
