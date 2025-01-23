@@ -5,7 +5,7 @@ function dataHandling(input)
      input[2] = "Provinsi Bandar Lampung";
      input.push("SMA Internasional");
 
-     let date = input[4].split("/");
+     let date = input[3].split("/");
      let month = date[1];
 
      switch(month){
@@ -34,11 +34,12 @@ function dataHandling(input)
         case'12': month = "Desember"; 
             break;
      }
-
      
      console.log(input);
      console.log(month);
-     console.log(date);
+     console.log([date[2],date[0],date[1]]);
+     console.log(date.join('-'));
+     console.log(input[1].split(14));
  
 }
 
