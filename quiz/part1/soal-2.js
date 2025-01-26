@@ -34,7 +34,7 @@ function dataHandling(input)
         case'12': month = "Desember"; 
             break;
      }
-     
+
      console.log(input);
      console.log(month);
      console.log([date[2],date[0],date[1]]);
@@ -44,16 +44,3 @@ function dataHandling(input)
 }
 
 dataHandling(input);
-
-/**
- * keluaran yang diharapkan (pada console)
- *
- * ["0001", "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung", "21/05/1989", "Pria", "SMA Internasional Metro"]
- * Mei
- * ["1989", "21", "05"]
- * 21-05-1989
- * Roman Alamsyah //batasi hanya 15 karakter saja pada array elemen ke 2
- */
-// let hewan = ["marmut", "kucing", "tikus"];
-// hewan.splice(1,0,"gajah");
-// console.log(hewan); //["marmut", "gajah", "kucing", "tikus"]
