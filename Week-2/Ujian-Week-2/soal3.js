@@ -64,7 +64,7 @@ console.log(
 
 // ! KELUAR LOOP
 
-//Apakah [0][0] dari groupAnimals === "c"? (YES)
+//Apakah [0][0] dari groupAnimals !== "c"? (YES)
 // groupAnimals =  [kuda, kancil];
 // result = [[ayam, anoa], [cacing], [kuda, kancil]];
 
