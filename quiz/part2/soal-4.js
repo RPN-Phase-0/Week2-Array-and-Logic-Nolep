@@ -1,6 +1,5 @@
 function pasanganTerbesar(num) {
   let arrNum = [];
-  let hasil;
   let stringNum = num.toString();
 
   for(let i=0; i<stringNum.length; i++){
@@ -20,9 +19,3 @@ function pasanganTerbesar(num) {
   console.log(pasanganTerbesar(910233)); // 91
   console.log(pasanganTerbesar(71856421)); // 85
   console.log(pasanganTerbesar(79918293)); // 99
-
-/*
-arr.sort(function(value1, value2) { return Number(value1) < Number(value2) });
-
-
-*/  
