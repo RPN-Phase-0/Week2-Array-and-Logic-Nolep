@@ -9,11 +9,16 @@ Contoh jika arr inputan adalah [45, 20, 21, 2, 7] maka output: [ [ 20, 2 ], [ 7 
 */
 function mengelompokkanAngka(arr) {
     // you can only write your code here!
-  }
+    let evens = arr.filter(num => num % 2 === 0 && num % 3 !== 0) ;
+    let odds = arr.filter(num => num % 2 !== 0 && num % 3 !== 0);
+    let m3 = arr.filter(num => num % 3 === 0);
+
+  console.log(evens, odds, m3)
+    }
+  
   
   // TEST CASES
   console.log(mengelompokkanAngka([2, 4, 6])); // [ [2, 4], [], [6] ]
   console.log(mengelompokkanAngka([1, 2, 3, 4, 5, 6, 7, 8, 9])); // [ [ 2, 4, 8 ], [ 1, 5, 7 ], [ 3, 6, 9 ] ]
   console.log(mengelompokkanAngka([100, 151, 122, 99, 111])); // [ [ 100, 122 ], [ 151 ], [ 99, 111 ] ]
   console.log(mengelompokkanAngka([])); // [ [], [], [] ]
- 
