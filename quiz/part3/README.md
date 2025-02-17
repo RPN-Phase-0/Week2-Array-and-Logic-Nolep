@@ -61,6 +61,14 @@ console.log(perkalianUnik([2, 1, 8, 10, 2])); // [160, 320, 40, 32, 160]
 //tentukan apakah ini deret aritmatika atau bukan
 function tentukanDeretAritmatika(arr) {
   // you can only write your code here!
+  let beda = arr[1] - arr[0];
+
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i + 1] - arr[i] !== beda) {
+      return false;
+    }
+  }
+  return true;
 }
 
 // TEST CASES
@@ -76,6 +84,14 @@ console.log(tentukanDeretAritmatika([1, 2, 3, 4, 7, 9])); // false
 ```js
 function tentukanDeretGeometri(arr) {
   // you can only write your code here!
+  let geometri = arr[1] / arr[0];
+
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i + 1] / arr[i] !== geometri) {
+      return false;
+    }
+  }
+  return true;
 }
 
 // TEST CASES
