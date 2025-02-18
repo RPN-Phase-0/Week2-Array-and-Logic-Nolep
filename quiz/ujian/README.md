@@ -58,13 +58,13 @@ function mengelompokkanAngka(arr) {
   let kelipatan3 = [];
   let result = [];
 
-  for (let i = 0; i < angka.length; i++) {
-    if (angka[i] % 3 === 0) {
-      kelipatan3.push(angka[i]);
-    } else if (angka[i] % 2 === 0) {
-      genap.push(angka[i]);
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 3 === 0) {
+      kelipatan3.push(arr[i]);
+    } else if (arr[i] % 2 === 0) {
+      genap.push(arr[i]);
     } else {
-      ganjil.push(angka[i]);
+      ganjil.push(arr[i]);
     }
   }
   result.push(genap, ganjil, kelipatan3);
