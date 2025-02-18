@@ -39,7 +39,7 @@ function perkalianUnik(arr) {
 
     for (let j = 0; j < arr.length; j++) {
       if (i !== j) {
-        total *= arr[j]; // total = total * arr[j]
+        total *= arr[j];
       }
     }
     result.push(total);
