@@ -17,7 +17,7 @@ function targetTerdekat(arr) {
     }
   }
 
-  if (posisi_x.length === 0) {
+  if (posisi_x.length === 0 || posisi_o.length === 0) {
     return 0; // Jika tidak ada "o" atau "x" dalam array
   }
 
