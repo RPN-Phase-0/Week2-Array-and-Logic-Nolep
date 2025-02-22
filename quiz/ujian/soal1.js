@@ -3,6 +3,27 @@ Diberikan sebuah function targetTerdekat(arr) yang menerima satu parameter berup
 */
 function targetTerdekat(arr) {
   // you can only write your code here!
+  let charXPosition = null
+  let charOPosition = null
+  let minValue = 0
+
+  for (let i = 0; i <= arr.length - 1; i++) {
+    if (arr[i] === "x" ) {
+      charXPosition = i
+    } else if (arr[i] === "o") {
+      charOPosition = i
+    }
+    if(charOPosition !== null && charXPosition !== null) {
+      let diff = Math.abs(charXPosition - charOPosition)
+      if(minValue === 0 || diff < minValue) {
+        minValue = diff
+      }
+    }
+  }
+  if(charXPosition === 0) return 0
+
+  // looping for min value
+  return minValue
 }
 
 // TEST CASES

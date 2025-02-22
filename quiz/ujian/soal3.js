@@ -6,7 +6,20 @@ function groupAnimals(animals) {
   // you can only write your code here!
   animals.sort()
 
-  let result = [["a"]]
+  let result = []
+
+  for (let i = 0; i <= animals.length - 1; i++) {
+    if (result.length === 0) {
+      result.push([animals[i]])
+    } else {
+      let last = result[result.length - 1]
+      if (last[0][0] === animals[i][0]) {
+        last.push(animals[i])
+      } else {
+        result.push([animals[i]])
+      }
+    }
+  }
   
   return result
 }
