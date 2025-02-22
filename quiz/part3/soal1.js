@@ -1,8 +1,8 @@
 function cariMean(arr) {
   // you can only write your code here!
-  let tengah = Math.floor(arr.length / 2)
+  let mergeValue = arr.reduce((a, b) => a + b)
 
-  return arr.sort((a, b) => a - b)[tengah]
+  return Math.round(mergeValue / arr.length)
 }
 
 // TEST CASES
