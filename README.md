@@ -2,7 +2,7 @@
 
 Selamat datang di modul "Array and Logic" dengan JavaScript! Modul ini dirancang khusus untuk pemula yang baru memulai perjalanan mereka dalam mempelajari logika pemrograman dengan array di JavaScript.
 
-## Apa yang akan Anda pelajari?
+## Apa yang akan Kalian pelajari?
 
 1. **Dasar-dasar Array**
    - Apa itu array?
@@ -24,8 +24,8 @@ Selamat datang di modul "Array and Logic" dengan JavaScript! Modul ini dirancang
 
 ## Cara Menggunakan Repo Ini
 
-1. **Mulailah dengan membaca materi yang tersedia di setiap folder.** Setiap topik disertai dengan penjelasan mendetail dan contoh kode yang bisa Anda pelajari.
-2. **Coba tulis kode Anda sendiri!** Setiap bagian menyertakan latihan praktis yang bisa Anda coba untuk menguji pemahaman Anda.
+1. **Mulailah dengan membaca materi yang tersedia di setiap folder.** Setiap topik disertai dengan penjelasan mendetail dan contoh kode yang bisa Kalian pelajari.
+2. **Coba tulis kode Kalian sendiri!** Setiap bagian menyertakan latihan praktis yang bisa Kalian coba untuk menguji pemahaman Kalian.
 3. **Bergabunglah dengan komunitas.** Jangan ragu untuk bertanya atau berdiskusi dengan sesama pemula di bagian issues atau melalui pull requests.
 
 ## Tips Belajar di Week 2
