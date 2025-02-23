@@ -22,6 +22,7 @@ function dataHandling(n) {
           break;
       }
     }
+    console.log(` `);
   }
 }
 dataHandling(input);
