@@ -1,3 +1,5 @@
+// Deret aritmatika adalah jumlah dari semua suku-suku pada barisan aritmatika. Barisan aritmatika adalah barisan bilangan yang memiliki selisih suku-suku yang berdekatan dan selalu tetap
+// Rumus deret aritmatika Sn = n/2 (a + Un), Sn = n/2 (2a + (n - 1) b).
 function tentukanDeretAritmatika(arr) {
   let beda = arr[1] - arr[0];
   for (let i = 1; i < arr.length - 1; i++) {
