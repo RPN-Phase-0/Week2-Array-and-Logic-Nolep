@@ -1,7 +1,3 @@
-# Handling Data Array agar menghasilkan output yg baik | Part 1
-
-## Soal 1
-```js
 /*
 Buatlah sebuah fungsi dengan nama dataHandling dengan sebuah parameter untuk menerima argumen. Argumen yang akan diterima adalah sebuah array yang berisi beberapa array sejumlah n.
 Tugas kamu adalah mengimplementasikan fungsi dataHandling agar dapat menampilkan data-data pada dari argumen seperti di bawah ini:
@@ -36,26 +32,3 @@ Nama Lengkap:  Bintang Senjaya
 TTL:  Martapura 6/4/1970
 Hobi:  Berkebun
 */
-```
-
-## Soal 2 
-pada soal yg kedua, kalian harus belajar method `split` secara mandiri, pada soal dibawah ini, method ***.split()*** cukup powerfull loh
-```js
-let input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
-
-function dataHandling(input) {
-
-}
-
-dataHandling2(input);
-
-/**
- * keluaran yang diharapkan (pada console)
- *
- * ["0001", "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung", "21/05/1989", "Pria", "SMA Internasional Metro"]
- * Mei
- * ["1989", "21", "05"]
- * 21-05-1989
- * Roman Alamsyah //batasi hanya 15 karakter saja pada array elemen ke 2
- */
-```
