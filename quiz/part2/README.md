@@ -15,6 +15,7 @@ Diberikan sebuah function palindrome(kata) yang menerima satu parameter. Functio
 function palindrome(kata) {
   // you can only write your code here!
 }
+console.log(palindrome('katak'));
 
 // TEST CASES
 console.log(palindrome('katak')); // true
