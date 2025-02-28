@@ -7,6 +7,11 @@ Diberikan sebuah function targetTerdekat(arr) yang menerima satu parameter berup
 */
 function targetTerdekat(arr) {
   // you can only write your code here!
+  let posisiO = -1;
+  let posisiX = -1;
+  let terdekat = infinity;
+
+  for(var i = 0; i < arr.length)
 }
 
 // TEST CASES
