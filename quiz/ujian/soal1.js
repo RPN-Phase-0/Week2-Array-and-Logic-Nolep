@@ -9,18 +9,15 @@ function targetTerdekat(arr) {
     let indexX = [];
     let indexO = [];
 
-    //looping untuk mencari dan mengumpulkan seluruh index x dan o ke dalam array
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === "x") indexX.push(i);
         if (arr[i] === "o") indexO.push(i);
     }
 
-    //jika tidak ada elemen x atau o, maka return 0
     if (indexO.length === 0 || indexX.length === 0) {
         return 0;
     }
 
-    //looping untuk mencari jarak terdekat dari o ke x, dengan menghitung setiap o - setiap x
     for (let o = 0; o < indexO.length; o++) {
         for (let x = 0; x < indexX.length; x++) {
             let jarakSementara = Math.abs(indexO[o] - indexX[x]);
