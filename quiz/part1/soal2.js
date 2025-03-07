@@ -1,16 +1,18 @@
 let input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
 
+console.log("")
 function dataHandling(input) {
 
     input[1] = "Roman Alamsyah Elsharawy";
     input[2] = "Provinsi Bandar Lampung";
     input.splice(4, 1, "Pria", "SMA Internasional Metro");
 
-    console.log(JSON.stringify(input));
+    console.log(`["${input.join('", "')}"]`);
 
 
     let tanggal = input[3].split('/');
     let bulan = tanggal[1];
+    let tanggal1 = input[3] = "05/21/1989".split('/');
 
 
     let bulanTeks;
@@ -31,8 +33,8 @@ function dataHandling(input) {
     console.log(bulanTeks);
 
 
-    let tanggalTerbalik = [...tanggal].reverse();
-    console.log(JSON.stringify(tanggalTerbalik));
+    let tanggalTerbalik = [...tanggal1].reverse();
+    console.log(`["${tanggalTerbalik.join(`", "`)}"]`)
 
 
     let tanggalStrip = tanggal.join("-");
@@ -45,6 +47,7 @@ function dataHandling(input) {
 
 
 dataHandling(input);
+console.log("")
 
 /**
  * keluaran yang diharapkan (pada console)
