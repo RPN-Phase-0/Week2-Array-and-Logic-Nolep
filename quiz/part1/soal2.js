@@ -1,15 +1,15 @@
 let input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
 
 function dataHandling(input) {
-    
+
     input[1] = "Roman Alamsyah Elsharawy";
     input[2] = "Provinsi Bandar Lampung";
     input.splice(4, 1, "Pria", "SMA Internasional Metro");
 
-    console.log(input);
+    console.log(JSON.stringify(input));
 
 
-    let tanggal = input[3].split("/");
+    let tanggal = input[3].split('/');
     let bulan = tanggal[1];
 
 
@@ -32,7 +32,7 @@ function dataHandling(input) {
 
 
     let tanggalTerbalik = [...tanggal].reverse();
-    console.log(tanggalTerbalik);
+    console.log(JSON.stringify(tanggalTerbalik));
 
 
     let tanggalStrip = tanggal.join("-");
