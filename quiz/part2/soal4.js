@@ -1,10 +1,10 @@
 function pasanganTerbesar(num) {
-    let strNum = num.toString();
-    let max = 0;
+    let strNum = num.toString();//merubah angka kestring
+    let max = 0;//karna ingin mencari angka yang lebih besar dri 0
 
-    for (let i = 0; i < strNum.length - 1; i++) {
-        let pasangan = parseInt(strNum[i] + strNum[i + 1]);
-        if (pasangan > max) {
+    for (let i = 0; i < strNum.length - 1; i++) { //strNum.length agar gk kebablasan
+        let pasangan = parseInt(strNum[i] + strNum[i + 1]); //ambil dau digit berturu"
+        if (pasangan > max) { //cek psangan terbesar
             max = pasangan;
         }
     }
