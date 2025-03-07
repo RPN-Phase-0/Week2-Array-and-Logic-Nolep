@@ -3,7 +3,7 @@ Diberikan sebuah function palindrome(kata) yang menerima satu parameter. Functio
 */
 
 function palindrome(kata) {
-    let reversed = kata.split('').reverse().join('');
+    let reversed = kata.split('').reverse().jon('');
     return kata === reversed;
   }
   
