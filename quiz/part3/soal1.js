@@ -1,5 +1,5 @@
 function cariMean(arr) {
-    let total = arr.reduce((acc, num) => acc + num, 0)
+    let total = arr.reduce((acc, num) => acc + num, 0)//menjumlah semua angka dalam array
     return Math.round(total / arr.length);
   }
   
