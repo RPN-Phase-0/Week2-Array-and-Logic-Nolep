@@ -3,8 +3,12 @@ Diberikan sebuah function palindrome(kata) yang menerima satu parameter. Functio
 */
 
 function palindrome(kata) {
-    let reversed = kata.split('').reverse().join('');
-    return kata === reversed;
+    let katabalik = ""
+
+    for (let i = kata.length - 1; i >= 0; i--) {
+      katabalik += kata[i]
+    }
+    return katabalik === kata;
   }
   
   // TEST CASES
