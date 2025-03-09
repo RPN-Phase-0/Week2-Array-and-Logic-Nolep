@@ -25,7 +25,7 @@ function dataHandling(input) {
     const nama = data[1];
     const limitNama = nama.slice(0, 15);
 
-    console.log(data);
+    console.log(`[${data.join(', ')}]`);
     console.log(bulan);
     console.log(ubahSusunanArray);
     console.log(tanggalStrip);
